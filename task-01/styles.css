@@ -7,11 +7,11 @@ body {
 }
 
 h1 {
-  color: black;
+    color: black;
 }
 
 h2 {
-  text-align: center;
+    text-align: center;
 }
 
 .content { 
@@ -25,35 +25,35 @@ h2 {
     background-color: #f9f9f9;
 }
 
-   a {
+a {
     text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline
+    text-decoration: underline
 }
 
 #Bill_joy {
-  height: 170px; 
-  width: 150px; 
-  right: 100%;
-  float: right;
+    height: 170px; 
+    width: 150px; 
+    right: 100%;
+    float: right;
 }
 
 #Marc_Andreessen {
-width: 150px;
-height: 170px;
-float: left;
+    width: 150px;
+    height: 170px;
+    float: left;
 }
 
 #BEich {
-  height: 170px;
-  width: 150px;
-  float: left;
+    height: 170px;
+    width: 150px;
+    float: left;
 }
 
 .menu {
-      width: 180px; 
+    width: 180px; 
     height: 2720px;
     margin-right: 20px;
     background: #ccc;
