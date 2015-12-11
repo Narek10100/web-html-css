@@ -4,6 +4,7 @@ html, body {
 
 body {
     font-size: 11pt;
+    margin: 0;
 }
 
 h1 {
@@ -15,7 +16,7 @@ h2 {
 }
 
 .content { 
-    width: 250px;
+    width: 280px;
     margin-left: 200px; 
     background: #aaaaaa;
     padding: 50px;
@@ -23,6 +24,7 @@ h2 {
     border: solid 1px #aaaaaa; 
     margin-right: 500px;
     background-color: #f9f9f9;
+    margin-right: 50px;
 }
 
 a {
@@ -38,26 +40,44 @@ a:hover {
     width: 150px; 
     right: 100%;
     float: right;
+    margin: 7px;
 }
 
 #Marc_Andreessen {
     width: 150px;
     height: 170px;
     float: left;
+    margin: 7px;
 }
 
 #BEich {
     height: 170px;
     width: 150px;
     float: left;
+    margin: 7px;
 }
 
 .menu {
     width: 180px; 
-    height: 2720px;
+    height: 2750px;
     margin-right: 20px;
     background: #ccc;
-    border: solid 1px #a7d7f9; 
+    border: solid 0px;
     float: left;
     background-color: #f6f6f6;
+    font-size: 9pt;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.hr {
+    height: 2750px;
+    width: 1px;
+    background-color: #a7d7f9;
+    border: solid 0 1px #a7d7f9;
+    float: left;
+    position: absolute;
+    left: 180px;
 }
