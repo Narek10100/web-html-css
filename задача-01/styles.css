@@ -15,16 +15,17 @@ h2 {
     text-align: center;
 }
 
-.content { 
-    width: 280px;
-    margin-left: 200px; 
+.content {
+    width: 400px;
+    margin-right: 300px; 
     background: #aaaaaa;
     padding: 50px;
     padding-left: 50px; 
     border: solid 1px #aaaaaa; 
-    margin-right: 500px;
     background-color: #f9f9f9;
-    margin-right: 50px;
+    float: left;
+    padding: 0px;
+    font-size: 14px;
 }
 
 a {
@@ -59,7 +60,7 @@ a:hover {
 
 .menu {
     width: 180px; 
-    height: 2750px;
+    height: 2600px;
     margin-right: 20px;
     background: #ccc;
     border: solid 0px;
@@ -74,7 +75,7 @@ a:hover {
 }
 
 .hr {
-    height: 2750px;
+    height: 2600px;
     width: 1px;
     background-color: #a7d7f9;
     border: solid 0 1px #a7d7f9;
@@ -87,8 +88,57 @@ a:hover {
     float: left;
 }
 
-#img {
+#mw-wiki-logo {
     height: 140px;
     width: 120px;
     margin-bottom: 20px;
+}
+
+.JS {
+    width: 270px;
+    height: 500px;
+    background: #aaaaaa;
+    border: solid 1px #aaaaaa; 
+    background-color: #f9f9f9;
+    margin-left: 950px;
+    margin-bottom : 500px;
+    padding-bottom: 170px;
+}
+
+.text {
+    width: 730px;
+    float: left;
+}
+
+#JS-logo {
+    margin-left: 100px;
+    padding-top: 10px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.JS ul li {
+    list-style-type: none;
+    line-height: 1.5em;
+    font-size: 9pt;
+    margin-left: 70px;
+}
+
+.JS ul h4 {
+    text-align: left;
+    padding: 0px;
+    font-size: 10pt;
+    padding-right: 150px;
+    width: 1px;
+}
+
+table {
+    border-spacing: 5px;
+    font-size: 10pt;
+}
+
+th {
+    float: left;
 }
