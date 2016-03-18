@@ -17,15 +17,14 @@ h2 {
 
 .content {
     width: 400px;
-    margin-right: 300px; 
     background: #aaaaaa;
-    padding: 50px;
-    padding-left: 50px; 
     border: solid 1px #aaaaaa; 
     background-color: #f9f9f9;
     float: left;
-    padding: 0px;
     font-size: 14px;
+    position: absolute;
+    left: 200px;
+    top: 370px;
 }
 
 a {
@@ -79,30 +78,23 @@ a:hover {
     width: 1px;
     background-color: #a7d7f9;
     border: solid 0 1px #a7d7f9;
-    float: left;
     position: absolute;
     left: 180px;
-}
-
-.menu ul li img {
-    float: left;
 }
 
 #mw-wiki-logo {
     height: 140px;
     width: 120px;
-    margin-bottom: 20px;
+    margin-left: 35px;
 }
 
 .JS {
     width: 270px;
-    height: 500px;
+    height: 670px;
     background: #aaaaaa;
     border: solid 1px #aaaaaa; 
     background-color: #f9f9f9;
-    margin-left: 950px;
-    margin-bottom : 500px;
-    padding-bottom: 170px;
+    float: right
 }
 
 .text {
@@ -119,26 +111,16 @@ h4 {
     text-align: center;
 }
 
-.JS ul li {
-    list-style-type: none;
-    line-height: 1.5em;
-    font-size: 9pt;
-    margin-left: 70px;
-}
-
-.JS ul h4 {
-    text-align: left;
-    padding: 0px;
-    font-size: 10pt;
-    padding-right: 150px;
-    width: 1px;
-}
-
 table {
     border-spacing: 5px;
     font-size: 10pt;
 }
 
-th {
-    float: left;
+.text1 {
+    float: right;
+    margin-left: 200px;
+    overflow: auto;
+    padding: 20px;
+    position: absolute;
+    top: 1250px;
 }
